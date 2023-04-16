@@ -19,8 +19,8 @@ public:
 
 private:
 	std::vector<std::unique_ptr<DNA>> m_population;
-	const float m_mutationRate = 0.01f;
-	const int m_populationCount = 300;
+	const float m_mutationRate = 0.015f;
+	const int m_populationCount = 500;
 	const std::string m_target;
 
 	std::random_device m_rd;
